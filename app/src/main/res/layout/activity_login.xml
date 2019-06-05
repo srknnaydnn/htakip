@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/resim3"
+    tools:context=".Login">
+
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="185dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp">
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/username"
+              android:inputType="textEmailAddress"
+              android:background="@drawable/edittext_register"
+              android:hint="@string/kulan_c_ad_veya_e_posta"
+              android:padding="10dp"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/password"
+              android:inputType="textPassword"
+              android:layout_below="@+id/username"
+              android:background="@drawable/edittext_register"
+              android:hint="@string/ifre"
+              android:layout_marginTop="13dp"
+              android:padding="10dp"/>
+
+
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/giris"
+              android:layout_centerVertical="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="15dp"
+              android:background="@drawable/button_login"
+              android:text="GİRİŞ YAP"
+              android:textColor="@color/Azure"
+              android:textStyle="bold"
+              android:padding="3dp"
+              />
+
+
+      </RelativeLayout>
+  </LinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Hasta takip</string>
+    <string name="load_ng">LOADING…</string>
+    <string name="login">Login</string>
+    <string name="kulan_c_ad_veya_e_posta">Kulanıcı Adı veya E-posta</string>
+    <string name="ifre">Şifre</string>
+    <string name="kaydol">KAYDOL</string>
+    <string name="doktor">Doktor</string>
+    <string name="pass">Şifre</string>
+    <string name="e_posta">E-posta</string>
+    <string name="soyad">Soyad</string>
+    <string name="ad">Ad</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">about</string>
+    <string name="geri_bildirim">geri bildirim</string>
+    <string name="title_activity_dassboard">Dassboard</string>
+    <string name="hakk_nda">hakkında</string>
+    <string name="profile">Profile</string>
+    <string name="profil">profil</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="ba_l_k">Başlık</string>
+    <string name="mesaj">Mesaj</string>
+    <string name="g_nder">GÖNDER</string>
+    <string name="hasta">hasta</string>
+    <string name="hem_ire">Hemşire</string>
+    <string-array name="section">
+        <item>KBB</item>
+        <item>BEYİN CERAHI</item>
+        <item>KALP DAMAR</item>
+        <item>DAHİLİYE</item>
+        <item>ORTOPEDİ</item>
+        <item>GÖĞÜS HASTALIKLARI</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

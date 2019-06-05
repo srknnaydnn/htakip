@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        android:background="@color/RedOrange">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_profile"
+            android:layout_gravity="center"
+            android:text="@string/feedback"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/Azure"
+            android:layout_marginTop="32.5dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_subject"
+            android:background="@drawable/edittext_feedback"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/ba_l_k"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_message"
+            android:background="@drawable/edittext_feedback"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edit_subject"
+            android:hint="@string/mesaj"
+            android:layout_marginTop="13dp"
+            android:padding="50dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/post"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edit_message"
+            android:background="@drawable/button_register"
+            android:layout_marginTop="20dp"
+            android:text="@string/g_nder"
+            android:textColor="@color/Azure"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
